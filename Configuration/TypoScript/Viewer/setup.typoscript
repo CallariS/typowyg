@@ -1,0 +1,10 @@
+page = PAGE
+
+tt_content.typowyg =< lib.contentElement
+tt_content.typowyg {
+  templateName = Viewer
+
+  templateRootPaths {
+    10 = EXT:typowyg/Resources/Private/Templates
+  }
+}

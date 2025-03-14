@@ -1,0 +1,131 @@
+<?xml   version     = '1.0'
+        encoding    = 'utf-8'
+        standalone  = 'yes'?>
+
+<xliff version = '1.0'>
+    <file   target-language = 'de'
+            datatype        = 'plaintext'
+            original        = 'EXT:angularcli_suite/Resources/Private/Language/AppMenu/Viewer/de.locallang.xlf'
+            date            = '2020-08-10T10:26:01Z'>
+        <header/>
+        
+        <body>
+                <trans-unit     id      = 'ID'
+                                resname = 'ID'>
+                        <target>Trumbowyg Instanz-ID</target></trans-unit>
+
+                <trans-unit     id      = 'title'
+                                resname = 'title'>
+                        <target>Typo WYG - Der Trumbowyg Editor.</target></trans-unit>
+
+                <trans-unit     id      = 'description'
+                                resname = 'description'>
+                        <target>Implementiert den Trumbowyg Editor in Typo3.</target></trans-unit>
+                        
+                <trans-unit     id      = 'Gapi Client ID'
+                                resname = 'Gapi Client ID'>
+                        <target>Die Google Drive Client ID</target></trans-unit>
+                        
+                <trans-unit     id      = 'Editor Config'
+                                resname = 'Editor Config'>
+                        <target>Die Konfiguration Des Trumbowyg Editors</target></trans-unit>
+
+                <trans-unit     id      = 'Editor Plugins'
+                                resname = 'Editor PLugins'>
+                        <target>Zu ladende Plugin-Bibliotheken</target></trans-unit>
+
+                <trans-unit     id      = 'TCA Tab Label'
+                                resname = 'TCA Tab Label'>
+                        <target>Typo WYG</target></trans-unit>
+                        
+                <trans-unit     id      = 'Google Drive'
+                                resname = 'Google Drive'>
+                        <target>Google Drive</target></trans-unit>
+                        
+                <trans-unit     id      = 'Paste Inline Image'
+                                resname = 'Paste Inline Image'>
+                        <target>Bild Inline Einfügen</target></trans-unit>
+                        
+                <trans-unit     id      = 'Pasting'
+                                resname = 'Pasting'>
+                        <target>Einfügen</target></trans-unit>
+                        
+                <trans-unit     id      = 'Paste Image URL'
+                                resname = 'Paste Image URL'>
+                        <target>Bild Via URL Einfügen</target></trans-unit>
+                        
+                <trans-unit     id      = 'Clean HTML-Code Before Pasting'
+                                resname = 'Clean HTML-Code Before Pasting'>
+                        <target>Vor Dem Einfügen HTML Bereinigen</target></trans-unit>
+                        
+                <trans-unit     id      = 'Text Fore- and Backgroundcolor'
+                                resname = 'Text Fore- and Backgroundcolor'>
+                        <target>Textfarbe</target></trans-unit>
+                        
+                <trans-unit     id      = 'Font'
+                                resname = 'Font'>
+                        <target>Schriftart</target></trans-unit>
+                        
+                <trans-unit     id      = 'Fontsize'
+                                resname = 'Fontsize'>
+                        <target>Schriftgröße</target></trans-unit>
+                        
+                <trans-unit     id      = 'Emojis'
+                                resname = 'Emojis'>
+                        <target>Emojis</target></trans-unit>
+                        
+                <trans-unit     id      = 'History'
+                                resname = 'History'>
+                        <target>History</target></trans-unit>
+                        
+                <trans-unit     id      = 'Indentation'
+                                resname = 'Indentation'>
+                        <target>Einrückung</target></trans-unit>
+                        
+                <trans-unit     id      = 'Insert Audio'
+                                resname = 'Insert Audio'>
+                        <target>Audio Einfügen</target></trans-unit>
+                        
+                <trans-unit     id      = 'Lineheight'
+                                resname = 'Lineheight'>
+                        <target>Zeilenhöhe</target></trans-unit>
+                        
+                <trans-unit     id      = 'Mention'
+                                resname = 'Mention'>
+                        <target>Erwähnung</target></trans-unit>
+                        
+                <trans-unit     id      = 'Embed'
+                                resname = 'Embed'>
+                        <target>Einbetten</target></trans-unit>
+                        
+                <trans-unit     id      = 'Code Wrapper'
+                                resname = 'Code Wrapper'>
+                        <target>Code Wrapper</target></trans-unit>
+                        
+                <trans-unit     id      = 'Resize Image'
+                                resname = 'Resize Image'>
+                        <target>Bildgröße Ändern</target></trans-unit>
+                        
+                <trans-unit     id      = 'Special Characters'
+                                resname = 'Special Characters'>
+                        <target>Spezialzeichen</target></trans-unit>
+                        
+                <trans-unit     id      = 'Table'
+                                resname = 'Table'>
+                        <target>Tabelle</target></trans-unit>
+
+                <trans-unit     id      = 'Highlight'
+                                resname = 'Highlight'>
+                        <target>Markieren</target></trans-unit>
+                        
+                <trans-unit     id      = 'Templates'
+                                resname = 'Templates'>
+                        <target>Templates</target></trans-unit>
+                        
+                <trans-unit     id      = 'Upload'
+                                resname = 'Upload'>
+                        <target>Upload</target></trans-unit>
+                        
+                <trans-unit     id      = 'Speechrecognition'
+                                resname = 'Speechrecognition'>
+                        <target>Diktieren</target></trans-unit></body></file></xliff>

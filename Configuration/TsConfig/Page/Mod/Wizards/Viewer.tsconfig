@@ -1,0 +1,19 @@
+mod.wizards {
+    newContentElement.wizardItems {
+        common {
+            elements {
+                typowyg {
+                    group           = common
+                    iconIdentifier  = Typo WYG
+                    title           = LLL:EXT:typowyg/Resources/Private/Language/Viewer/locallang.xlf:title
+                    description     = LLL:EXT:typowyg/Resources/Private/Language/Viewer/locallang.xlf:description
+                    tt_content_defValues {
+                        CType = typowyg
+                    }
+                }
+            }
+        }
+    }
+}
+
+mod.wizards.newContentElement.wizardItems.common.show := addToList( typowyg )

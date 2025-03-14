@@ -1,0 +1,135 @@
+<!-- #region Imports -->
+<!-- #region JQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>window.jQuery || document.write('<script src = "js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<!-- #endregion JQuery -->
+<!-- #region Trumbowyg -->
+<link rel   = 'stylesheet'
+      href  = '{f:uri.resource(path:"JS/Viewer/trumbowyg.min.css", extensionName : "typowyg")}'>
+
+<script src = '{f:uri.resource(path:"JS/Viewer/trumbowyg.min.js", extensionName : "typowyg")}'></script>
+<!-- #region Plugins -->
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "colors">
+      <then>
+            <link rel   = 'stylesheet'
+                  href  = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.colors.min.css", extensionName : "typowyg")}'>
+            
+            <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.colors.min.js",  extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "emoji">
+      <then>
+            <link rel   = 'stylesheet'
+                  href  = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.emoji.min.css",  extensionName : "typowyg")}'>
+            
+            <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.emoji.min.js",   extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "specialchars">
+      <then>
+            <link rel   = 'stylesheet'
+                  href  = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.specialchars.min.css", extensionName : "typowyg")}'>
+            
+            <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.specialchars.min.js",  extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "table">
+      <then>
+            <link rel   = 'stylesheet'
+                  href  = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.table.min.css",  extensionName : "typowyg")}'>
+            
+            <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.table.min.js",   extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<!-- #region Highlight -->
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "highlight">
+      <then>
+            <link rel   = 'stylesheet'
+                  href  = 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.13.0/themes/prism.css'>
+
+            <link rel   = 'stylesheet'
+                  href  = 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-highlight/prism-line-highlight.min.css'>
+
+            <link rel   = 'stylesheet'
+                  href  = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.highlight.min.css", extensionName : "typowyg")}'>
+            
+            <script src = 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js'></script>
+
+            <script src = 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-highlight/prism-line-highlight.min.js'></script>
+
+            <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.highlight.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<!-- #endregion Highlight -->
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "mention">
+      <then>
+            <link rel   = 'stylesheet'
+                  href  = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.mention.min.css", extensionName : "typowyg")}'>
+            
+            <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.mention.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "base64"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.base64.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "fontfamily"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.fontfamily.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "fontsize"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.fontsize.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "indent"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.indent.min.js", extensionName : "typowyg")}'></script><then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "history"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.history.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "template"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.template.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "cleanpaste"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.cleanpaste.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "insertaudio"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.insertaudio.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "lineheight"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.lineheight.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<!-- #region MathML -->
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "indent">
+      <then>
+            <script src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+      
+            <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.mathml.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<!-- #endregion MathML -->
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "noembed"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.noembed.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "pasteembed"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.pasteembed.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "preformatted"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.preformatted.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "speechrecognition"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.speechrecognition.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "upload"><then><script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.upload.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<!-- #region Resize Image -->
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "resizimg">
+      <then>
+            <script src = '//rawcdn.githack.com/RickStrahl/jquery-resizable/0.35/dist/jquery-resizable.min.js'></script>
+            <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.resizimg.min.js", extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<!-- #endregion Resize Image -->
+<!-- #region Online Storage -->
+<!-- #region Google Drive -->
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "WaXCode_OnlineStorage_Google"><then>
+      <link rel   = 'stylesheet'
+            href  = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.clouddrive.browser.css",           extensionName : "typowyg")}'>
+
+      <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.clouddrive.browser.lang.en.js",    extensionName : "typowyg")}'></script>
+
+      <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.clouddrive.browser.js",            extensionName : "typowyg")}'></script>
+      
+      <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.clouddrive.google.lang.en.js",     extensionName : "typowyg")}'></script>
+      
+      <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.clouddrive.google.js",             extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+<!-- #endregion Google Drive -->
+<!-- #endregion Online Storage -->
+<!-- #endregion Trumbowyg -->
+<!-- #endregion Imports -->
+<style>.trumbowyg-box.trumbowyg { width : 50vw ; height : 50vh ; margin : auto ; box-shadow : 0 0 .5em black ; border-radius : .5em ;}</style>
+<div  id                = '{data.typowyg_trumbowyg_id}'
+      class             = '---WaXCode --T3 --Trumbowyg'
+      config            = '{data.typowyg_trumbowyg_config}'>
+      </div>
+      <script>
+            function decodeHtmlEntities( toConvert ) {
+      /*******/const textArea/*********/= document.createElement('textarea');
+      /*************/textArea.innerHTML = toConvert;
+      /*******/
+      /*******/textArea.remove();
+      /*******/
+      /*******/return textArea.value ;}
+            
+            var editor = document.querySelector('#c{data.uid} .---WaXCode.--T3.--Trumbowyg');
+
+            if( editor == undefined ) editor = document.querySelector('#cc{data.uid} .---WaXCode.--T3.--Trumbowyg');
+            
+            $( editor ).trumbowyg( JSON.parse( decodeHtmlEntities( editor.getAttribute('config'))));</script>

@@ -1,0 +1,127 @@
+<?xml   version     = '1.0'
+        encoding    = 'utf-8'
+        standalone  = 'yes'?>
+
+<xliff version = '1.0'>
+    <file   target-language = 'it'
+            datatype        = 'plaintext'
+            original        = 'EXT:angularcli_suite/Resources/Private/Language/AppMenu/Viewer/it.locallang.xlf'
+            date            = '2020-08-10T10:26:01Z'>
+        <header/>
+        
+        <body>
+                <trans-unit     id      = 'ID'
+                                resname = 'ID'>
+                        <target>ID Instanza Trumbowyg</target></trans-unit>
+                
+                <trans-unit     id      = 'title'
+                                resname = 'title'>
+                        <target>Typo WYG - L'Editore Trumbowyg.</target></trans-unit>
+
+                <trans-unit     id      = 'description'
+                                resname = 'description'>
+                        <target>Implementa L'Editore Trumbowyg entro Typo3.</target></trans-unit>
+                        
+                <trans-unit     id      = 'Editor Config'
+                                resname = 'Editor Config'>
+                        <target>La Configuration del L'Editore Trumbowyg</target></trans-unit>
+                        
+                <trans-unit     id      = 'Editor Plugins'
+                                resname = 'Editor Plugins'>
+                        <target>I Plugin Da Carricare del L'Editore Trumbowyg</target></trans-unit>
+                        
+                <trans-unit     id      = 'TCA Tab Label'
+                                resname = 'TCA Tab Label'>
+                        <target>Typo WYG</target></trans-unit>
+
+                <trans-unit     id      = 'Google Drive'
+                                resname = 'Google Drive'>
+                        <target>Google Drive</target></trans-unit>
+                        
+                <trans-unit     id      = 'Paste Inline Image'
+                                resname = 'Paste Inline Image'>
+                        <target>Incolla Imagine Inline</target></trans-unit>
+                        
+                <trans-unit     id      = 'Pasting'
+                                resname = 'Pasting'>
+                        <target>Incollamento</target></trans-unit>
+                        
+                <trans-unit     id      = 'Paste Image URL'
+                                resname = 'Paste Image URL'>
+                        <target>Incolla Imagine Via URL</target></trans-unit>
+                        
+                <trans-unit     id      = 'Clean HTML-Code Before Pasting'
+                                resname = 'Clean HTML-Code Before Pasting'>
+                        <target>Pulisce HTML Prima Di Incollare</target></trans-unit>
+                        
+                <trans-unit     id      = 'Text Fore- and Backgroundcolor'
+                                resname = 'Text Fore- and Backgroundcolor'>
+                        <target>Colore Del Testo</target></trans-unit>
+                        
+                <trans-unit     id      = 'Font'
+                                resname = 'Font'>
+                        <target>Carattere</target></trans-unit>
+                        
+                <trans-unit     id      = 'Fontsize'
+                                resname = 'Fontsize'>
+                        <target>Dmensione Dei Caratteri</target></trans-unit>
+                        
+                <trans-unit     id      = 'Emojis'
+                                resname = 'Emojis'>
+                        <target>Emojis</target></trans-unit>
+                        
+                <trans-unit     id      = 'History'
+                                resname = 'History'>
+                        <target>Historia</target></trans-unit>
+                        
+                <trans-unit     id      = 'Indentation'
+                                resname = 'Indentation'>
+                        <target>Indentazione</target></trans-unit>
+                        
+                <trans-unit     id      = 'Insert Audio'
+                                resname = 'Insert Audio'>
+                        <target>Incolla Audio</target></trans-unit>
+                        
+                <trans-unit     id      = 'Lineheight'
+                                resname = 'Lineheight'>
+                        <target>Altezza Della Linea</target></trans-unit>
+                        
+                <trans-unit     id      = 'Mention'
+                                resname = 'Mention'>
+                        <target>Menzione</target></trans-unit>
+                        
+                <trans-unit     id      = 'Embed'
+                                resname = 'Embed'>
+                        <target>Incorporare</target></trans-unit>
+                        
+                <trans-unit     id      = 'Code Wrapper'
+                                resname = 'Code Wrapper'>
+                        <target>Wrapper Codice</target></trans-unit>
+                        
+                <trans-unit     id      = 'Resize Image'
+                                resname = 'Resize Image'>
+                        <target>Ridemnsionare Imagine</target></trans-unit>
+                        
+                <trans-unit     id      = 'Special Characters'
+                                resname = 'Special Characters'>
+                        <target>Caratteri Speciali</target></trans-unit>
+                        
+                <trans-unit     id      = 'Table'
+                                resname = 'Table'>
+                        <target>Tabella</target></trans-unit>
+
+                <trans-unit     id      = 'Highlight'
+                                resname = 'Highlight'>
+                        <target>Segnala</target></trans-unit>
+                        
+                <trans-unit     id      = 'Templates'
+                                resname = 'Templates'>
+                        <target>Modelli</target></trans-unit>
+                        
+                <trans-unit     id      = 'Upload'
+                                resname = 'Upload'>
+                        <target>Carricamento</target></trans-unit>
+                        
+                <trans-unit     id      = 'Speechrecognition'
+                                resname = 'Speechrecognition'>
+                        <target>Dettare</target></trans-unit></body></file></xliff>
