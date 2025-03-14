@@ -2,4 +2,4 @@ This extension implements the [Trumbowyg Editor](https://alex-d.github.io/Trumbo
 
 Typowyg furthermore offers a plugin that allows the user to browse, upload, select and ultimatly embed or link content from their [Google Drive](https://drive.google.com/drive/u/0/).
 
-[Backshot](https://typowyg.waxcode.net/_images/Backshot.png)
+![Backshot](https://typowyg.waxcode.net/_images/Backshot.png)
