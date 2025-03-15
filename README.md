@@ -6,4 +6,6 @@ Typowyg furthermore offers a plugin that allows the user to browse, upload, sele
 
 Check out the [Live-Demo](https://waxcode.net/projects/sites/demo-typowyg).
 
-![Embedded Google Drive Content Views in Trymbowyg Editor](https://waxcode.net/fileadmin/user_upload/EmbeddedViewing.png)
+![Embedded Google Drive Content Views in Trymbowyg Editor](https://waxcode.net/fileadmin/user_upload/EmbeddedViewing2.png)
+
+![Embedded Google Drive Content Views in Table](https://waxcode.net/fileadmin/user_upload/Table_-_Demoscreen.png)
