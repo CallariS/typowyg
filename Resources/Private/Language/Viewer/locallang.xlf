@@ -124,4 +124,8 @@
                         
                 <trans-unit     id      = 'Speechrecognition'
                                 resname = 'Speechrecognition'>
-                        <source>Speechrecognition</source></trans-unit></body></file></xliff>
+                        <source>Speechrecognition</source></trans-unit>
+                        
+                <trans-unit     id      = 'Tenor'
+                                resname = 'Tenor'>
+                        <source>Tenor - GIF Resources</source></trans-unit></body></file></xliff>

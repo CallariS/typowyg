@@ -10,6 +10,13 @@
 
 <script src = '{f:uri.resource(path:"JS/Viewer/trumbowyg.min.js", extensionName : "typowyg")}'></script>
 <!-- #region Plugins -->
+<v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "tenor">
+      <then>
+            <link rel   = 'stylesheet'
+                  href  = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.tenor.min.css", extensionName : "typowyg")}'>
+            
+            <script src = '{f:uri.resource(path:"JS/Viewer/plugins/trumbowyg.tenor.min.js",  extensionName : "typowyg")}'></script></then></v:condition.string.contains>
+
 <v:condition.string.contains haystack = "{data.typowyg_trumbowyg_plugins}" needle = "colors">
       <then>
             <link rel   = 'stylesheet'

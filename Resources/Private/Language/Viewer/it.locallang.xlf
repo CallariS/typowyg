@@ -124,4 +124,8 @@
                         
                 <trans-unit     id      = 'Speechrecognition'
                                 resname = 'Speechrecognition'>
-                        <target>Dettare</target></trans-unit></body></file></xliff>
+                        <target>Dettare</target></trans-unit>
+                        
+                <trans-unit     id      = 'Tenor'
+                                resname = 'Tenor'>
+                        <target>Tenor - Risorse GIF</target></trans-unit></body></file></xliff>

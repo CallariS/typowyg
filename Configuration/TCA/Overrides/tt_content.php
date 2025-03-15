@@ -57,7 +57,8 @@ call_user_func( static function() {
                 ['LLL:EXT:typowyg/Resources/Private/Language/Viewer/locallang.xlf:Templates',                      'template'],
                 ['LLL:EXT:typowyg/Resources/Private/Language/Viewer/locallang.xlf:Upload',                         'upload'],
                 ['LLL:EXT:typowyg/Resources/Private/Language/Viewer/locallang.xlf:Speechrecognition',              'speechrecognition'],
-                ['LLL:EXT:typowyg/Resources/Private/Language/Viewer/locallang.xlf:Google Drive',                   'WaXCode_OnlineStorage_Google']],
+                ['LLL:EXT:typowyg/Resources/Private/Language/Viewer/locallang.xlf:Google Drive',                   'WaXCode_OnlineStorage_Google'],
+                ['LLL:EXT:typowyg/Resources/Private/Language/Viewer/locallang.xlf:Tenor',                          'tenor']],
             'size'      => '10',
             'maxItems'  => '0',
             'multiple'  => '0'))));

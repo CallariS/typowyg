@@ -11,7 +11,6 @@ $EM_CONF[ $_EXTKEY ] = array (
   'author_email'      => 'Callari@WaXCode.net',
   'author_company'    => NULL,
   'constraints'       => array (
-    'depends'   => [
-      'typo3'       => '11.5.1-12.99.99'],
+    'depends'   => ['typo3' => '11.5.1-12.99.99'],
     'conflicts' => NULL,
     'suggests'  => array()));

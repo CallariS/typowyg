@@ -1,0 +1,31 @@
+{
+  "name": "vendor/typowyg",
+  "type": "typo3-cms-extension",
+  "description": "This extension implements the Trumbowyg Editor. That editor is a lightweight one with only 20kb of size unlike the usual 40kb other editors need. It still offers a lot of features via plugins inlcuding speechrecognition, for example.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Salvatore Callari",
+      "email": "Callari@WaXCode.net"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^12.4",
+    "typo3/cms-fluid": "^12.4",
+    "typo3/cms-extbase": "^12.4",
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\Typowyg\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "typowyg"
+    }
+  },
+  "require-dev": {
+    "typo3/testing-framework": "^6.0"
+  }
+}

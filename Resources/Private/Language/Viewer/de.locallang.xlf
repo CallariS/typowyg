@@ -128,4 +128,8 @@
                         
                 <trans-unit     id      = 'Speechrecognition'
                                 resname = 'Speechrecognition'>
-                        <target>Diktieren</target></trans-unit></body></file></xliff>
+                        <target>Diktieren</target></trans-unit>
+                        
+                <trans-unit     id      = 'Tenor'
+                                resname = 'Tenor'>
+                        <target>Tenor - GIF Ressourcen</target></trans-unit></body></file></xliff>
