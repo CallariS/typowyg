@@ -1,0 +1,14 @@
+﻿Introduzione
+------------
+
+
+.. toctree::
+   :maxdepth: 5
+   :titlesonly:
+   :glob:
+
+   WhatDoesItDo/Index
+   Screenshots/Index
+   Contact/Index
+   ThanksTo/Index
+
