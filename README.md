@@ -1,4 +1,4 @@
-# Typowyg
+#  Typowyg
 
 This extension implements the [Trumbowyg Editor](https://alex-d.github.io/Trumbowyg/). That editor is a lightweight one with only 20kb of size unlike the usual 40kb other editors need. It still offers a lot of features via plugins inlcuding speechrecognition, for example.
 
